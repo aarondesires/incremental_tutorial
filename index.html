@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Idle Clicker</h1>
+        <p>Money: <span id="money">0</span></p>
+        <button id="click-btn">Click Me!</button>
+        
+        <h2>Upgrades</h2>
+        
+        <!-- Upgrade sections side by side -->
+<div class="upgrades-container">
+    <!-- Click Power Upgrades -->
+    <div class="upgrade-section">
+        <p><strong>Click Power Upgrades</strong></p>
+        <div class="upgrade-item">
+            <p>Click Power (+1 per click)</p>
+            <p>Cost: <span id="click-power-cost">10</span> | Owned: <span id="click-power-count">0</span></p>
+            <button id="buy-click-power">Buy Click Power</button>
+        </div>
+        <div class="upgrade-item">
+            <p>Super Click Power (+5 per click)</p>
+            <p>Cost: <span id="super-click-power-cost">100</span> | Owned: <span id="super-click-power-count">0</span></p>
+            <button id="buy-super-click-power">Buy Super Click Power</button>
+        </div>
+        <div class="upgrade-item">
+            <p>Ultra Click Power (+10 per click)</p>
+            <p>Cost: <span id="ultra-click-power-cost">1000</span> | Owned: <span id="ultra-click-power-count">0</span></p>
+            <button id="buy-ultra-click-power">Buy Ultra Click Power</button>
+        </div>
+    </div>
+
+    <!-- Auto Clicker Upgrades -->
+    <div class="upgrade-section">
+        <p><strong>Auto Clicker Upgrades</strong></p>
+        <div class="upgrade-item">
+            <p>Auto Clicker (+1 per second)</p>
+            <p>Cost: <span id="auto-clicker-cost">50</span> | Owned: <span id="auto-clicker-count">0</span></p>
+            <button id="buy-auto-clicker">Buy Auto Clicker</button>
+        </div>
+        <div class="upgrade-item">
+            <p>Mega Auto Clicker (+5 per second)</p>
+            <p>Cost: <span id="mega-auto-clicker-cost">500</span> | Owned: <span id="mega-auto-clicker-count">0</span></p>
+            <button id="buy-mega-auto-clicker">Buy Mega Auto Clicker</button>
+        </div>
+        <div class="upgrade-item">
+            <p>Ultra Auto Clicker (+10 per second)</p>
+            <p>Cost: <span id="ultra-auto-clicker-cost">5000</span> | Owned: <span id="ultra-auto-clicker-count">0</span></p>
+            <button id="buy-ultra-auto-clicker">Buy Ultra Auto Clicker</button>
+        </div>
+    </div>
+
+    <!-- Multiplier Upgrades -->
+    <div class="upgrade-section">
+        <p><strong>Multiplier Upgrades</strong></p>
+        <div class="upgrade-item">
+            <p>Multiplier (+25% click power)</p>
+            <p>Cost: <span id="multiplier-cost">100</span> | Owned: <span id="multiplier-count">0</span></p>
+            <button id="buy-multiplier">Buy Multiplier</button>
+        </div>
+        <div class="upgrade-item">
+            <p>Super Multiplier (+50% click power)</p>
+            <p>Cost: <span id="super-multiplier-cost">1000</span> | Owned: <span id="super-multiplier-count">0</span></p>
+            <button id="buy-super-multiplier">Buy Super Multiplier</button>
+        </div>
+        <div class="upgrade-item">
+            <p>Ultra Multiplier (+100% click power)</p>
+            <p>Cost: <span id="ultra-multiplier-cost">10000</span> | Owned: <span id="ultra-multiplier-count">0</span></p>
+            <button id="buy-ultra-multiplier">Buy Ultra Multiplier</button>
+        </div>
+    </div>
+</div>
+
+        <button id="reset-btn">Reset Progress</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

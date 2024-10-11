@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Container for upgrades */
+.upgrades-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Individual upgrade sections */
+.upgrade-section {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.upgrade-section strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Aligning cost and owned display */
+.upgrade-item p {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Reset button styling */
+#reset-btn {
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#reset-btn:hover {
+    background-color: darkred;
+}
